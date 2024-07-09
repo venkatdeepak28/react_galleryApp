@@ -1,0 +1,69 @@
+/* Write your code here. */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    height: 75vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.list-prop {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 16px;
+}
+
+.img {
+    width: 90vw;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.main-heading {
+    color: #1e293b;
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 24px;
+}
+
+.list-el {
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.para-el {
+    font-family: "Roboto";
+    color: #64748b;
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.custom-btn {
+    border: 0;
+    background-color: transparent;
+}
+
+.unselected {
+    border: 0;
+    opacity: 0.5;
+    border-radius: 16px;
+}
